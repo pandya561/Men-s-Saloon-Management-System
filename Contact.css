@@ -1,0 +1,16 @@
+#section-1{
+    background-image: url("hero.jpg");
+    color: white;
+    height: 25vw;
+}
+@media (max-width:428px)  and (max-height:926px){
+    #section-1{
+        background-size: 110vw 50vw;
+        background-repeat: no-repeat;
+        height: 50vw;
+    }
+    .section-2_1{
+        margin: 0vw !important;
+        margin-bottom: 1.5vw !important;
+    }
+}

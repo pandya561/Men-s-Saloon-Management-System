@@ -1,0 +1,38 @@
+#email{
+    border-top-left-radius: 2.5vw;
+    border-bottom-left-radius: 2.5vw;
+    background-color: black;
+    color: white;
+    padding: 0.5vw;
+    border: 0.2vw solid white;
+}
+#button{
+    background-color: #8e7424;
+    color: white;
+    padding: 0.5vw;
+    border-radius: 2vw;
+    margin-left: -0.5vw;
+    width: 10vw;
+    border: 0.2vw solid white;
+}
+@media (max-width:428px)  and (max-height:926px){
+    .col-4{
+       font-size: 2.9vw;
+    }
+    #footer-p1{
+        text-align: justify;
+    }
+    .row{
+        padding: 3vw !important;
+    }
+    #email{
+        font-size: 2.2vw;
+        width: 25vw;
+        height: 10vw;
+        font-weight: 700;
+    }
+    #button{
+        width: 25vw;
+        margin-top: 1.5vw;
+    }
+}

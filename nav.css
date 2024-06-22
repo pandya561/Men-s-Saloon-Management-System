@@ -1,0 +1,46 @@
+.logo-img {
+    height: 10vw;
+}
+
+.nav-link {
+    color: black;
+    font-size: 1.5vw;
+}
+.nav-link:hover {
+    color: red;
+}
+
+.custom-link {
+    width: 25vw;
+}
+/* .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    box-shadow: none;
+}
+
+.custom-toggler.navbar-toggler {
+    border: 0.5vw solid white;
+    box-shadow: none;
+} */
+.container-fluid>img{
+    height: 6vw;
+    width: 25vw;
+}
+
+@media (max-width:428px)  and (max-height:926px) {
+    .logo-img {
+        height: 20vw;
+    }
+
+    .nav-link {
+        font-size: 3vw;
+    }
+
+    .custom-link {
+        width: 30vw;
+    }
+    .container-fluid>img{
+        height: 10vw;
+        width: 50vw;
+    }
+}
